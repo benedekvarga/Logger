@@ -9,7 +9,7 @@
 
 ## Installation
 
-Download the project directory, add `Logger.swift` and `DateFormatter.swift` to your project. It's that simple, ready to use.
+Download the project directory, add `Logger.swift` to your project. It's that simple, ready to use.
 
 ## Usage
 
