@@ -12,14 +12,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        doSomeLogging()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func doSomeLogging() {
+
+        log(message: "This is just some info.", event: .info)
+
+        log(message: "This is a simple warning with time.", event: .warning, isDate: true)
+
     }
-
-
 }
 
