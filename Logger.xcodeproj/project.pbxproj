@@ -13,7 +13,6 @@
 		0D94ADC320590F1900BAE98A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D94ADC220590F1900BAE98A /* Assets.xcassets */; };
 		0D94ADC620590F1900BAE98A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D94ADC420590F1900BAE98A /* LaunchScreen.storyboard */; };
 		0D94ADD020590F6600BAE98A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D94ADCF20590F6600BAE98A /* Logger.swift */; };
-		0D94ADD22059104000BAE98A /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D94ADD12059104000BAE98A /* DateFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		0D94ADC520590F1900BAE98A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D94ADC720590F1900BAE98A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D94ADCF20590F6600BAE98A /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
-		0D94ADD12059104000BAE98A /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				0D94ADCF20590F6600BAE98A /* Logger.swift */,
-				0D94ADD12059104000BAE98A /* DateFormatter.swift */,
 			);
 			name = Utility;
 			sourceTree = "<group>";
@@ -158,7 +155,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D94ADD22059104000BAE98A /* DateFormatter.swift in Sources */,
 				0D94ADBE20590F1900BAE98A /* ViewController.swift in Sources */,
 				0D94ADD020590F6600BAE98A /* Logger.swift in Sources */,
 				0D94ADBC20590F1900BAE98A /* AppDelegate.swift in Sources */,
