@@ -17,8 +17,8 @@ enum LogEvent: String {
 }
 
 /// Provide informative log to console. Poor man's best debugger is print.
-func log(message: String,
-         event: LogEvent,
+func log(_ message: String,
+         event: LogEvent = .debug,
          fileName: String = #file,
          line: Int = #line,
          funcName: String = #function,
