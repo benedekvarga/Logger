@@ -16,7 +16,7 @@ enum LogEvent: String {
     case severe = "[🔥]"
 }
 
-/// Provide informative log. Poor man's debugger is print.
+/// Provide informative log to console. Poor man's best debugger is print.
 func log(message: String,
          event: LogEvent,
          fileName: String = #file,
