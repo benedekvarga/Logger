@@ -18,9 +18,9 @@ class ViewController: UIViewController {
 
     func doSomeLogging() {
 
-        log(message: "This is just some info.", event: .info)
+        log("This is just some info.", event: .info)
 
-        log(message: "This is a simple warning with time.", event: .warning, isDate: true)
+        log("This is a simple warning with time.", event: .warning, isDate: true)
 
     }
 }
