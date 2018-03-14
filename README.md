@@ -21,7 +21,7 @@ You can use it with date parameter...<br />
 ...or without:<br />
 `log(message: "This is just some info.", event: .info)`<br />
 
-There are some predefinet log types, feel free to use or modify it as you wish.<br />
+There are some predefined log types, feel free to use or modify it as you wish.<br />
 
 `info = "[ℹ️]"`<br />
 `debug = "[💬]"`<br />
@@ -30,6 +30,8 @@ There are some predefinet log types, feel free to use or modify it as you wish.<
 
 ## Support
 
-
+Please [open an issue](https://github.com/benedekvarga/Logger/issues/new) for support.
 
 ## Contributing
+
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/benedekvarga/Logger/compare).
