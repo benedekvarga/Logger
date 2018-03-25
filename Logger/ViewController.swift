@@ -18,9 +18,13 @@ class ViewController: UIViewController {
 
     func doSomeLogging() {
 
-        log("This is just some info.", event: .info)
+        logger("This is just some info.", event: .info)
 
-        log("This is a simple warning with time.", event: .warning, isDate: true)
+        logger("This is a simple warning with time.", event: .warning, isDate: true)
+
+        let testArray = ["kutya", "cica", "mérési hiba"]
+
+        logger(testArray)
 
     }
 }

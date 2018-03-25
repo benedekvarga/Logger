@@ -20,7 +20,7 @@ enum LogEvent: String {
 }
 
 /// Provide informative log to console. Default event is `debug` and default isDate is `false`.
-func log(_ message: String,
+func logger(_ message: Any,
          fileName: String = #file,
          line: Int = #line,
          funcName: String = #function,
@@ -31,15 +31,6 @@ func log(_ message: String,
     let extractedFileName = pathComponents.isEmpty ? "" : pathComponents.last!
 
     print("\(event.rawValue) - \(message) - at line \(line) in \(funcName), \(extractedFileName)\(isDate ? " - \(Date().toString())" : "")")
-}
-
-func debug(_ object: AnyObject?,
-           fileName: String = #file,
-           line: Int = #line,
-           funcName: String = #function,
-           event: LogEvent = .debug,
-           isDate: Bool = false) {
-    log(object.debugDescription, event: event, isDate: isDate)
 }
 
 fileprivate extension Date {
