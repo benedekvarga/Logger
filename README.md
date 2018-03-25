@@ -21,7 +21,7 @@ You can use it with date parameter...<br />
 ...or without:<br />
 `logger(message: "This is just some info.", event: .info)`<br />
 
-You also can print any object with it:
+You also can print any object with it:<br />
 `let testArray = ["kutya", "cica", "mérési hiba"]`<br />
 `logger(testArray)`<br />
 
