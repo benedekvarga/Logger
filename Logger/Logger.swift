@@ -33,6 +33,15 @@ func log(_ message: String,
     print("\(event.rawValue) - \(message) - at line \(line) in \(funcName), \(extractedFileName)\(isDate ? " - \(Date().toString())" : "")")
 }
 
+func debug(_ object: AnyObject?,
+           fileName: String = #file,
+           line: Int = #line,
+           funcName: String = #function,
+           event: LogEvent = .debug,
+           isDate: Bool = false) {
+    log(object.debugDescription, event: event, isDate: isDate)
+}
+
 fileprivate extension Date {
     static var dateFormat = "yyyy.MM.dd hh:mm:ss:SSSS"
 
